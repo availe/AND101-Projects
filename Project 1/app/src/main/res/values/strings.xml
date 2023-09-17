@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hello Squirrel</string>
+
+    <string name="first_name">Availe</string>
+    <string name="last_name">Eliava</string>
+    <string name="full_name">%s %s</string>
+
+    <string name="profile_bio_text">Hi! I am a computer science student.\nI am interested in networks and data communications.\nNice to meet everyone!</string>
+
+    <string name="profile_hobby_header_text">Favorite Hobbies:</string>
+    <string name="profile_hobby_first_text">🥇 Programming</string>
+    <string name="profile_hobby_second_text">🥈 Reading</string>
+    <string name="profile_hobby_third_text">🥉 Writing</string>
+</resources>
