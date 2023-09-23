@@ -1,6 +1,6 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 1 - Hello, Squirrel!
+#Project 1 - Hello, Squirrel!
 
 Submitted by: **Availe**
 
@@ -8,13 +8,9 @@ Time spent: **1.5** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿.  **Change or add to this description**
-
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+**Hello, Squirrel!** is an android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿. It is a static app that displays one's name, bio, and hobbies. The values for all of those fields are stored in string.xml.
 
 ## Application Features
-
-<!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
 
 The following REQUIRED features are completed:
 
@@ -29,24 +25,16 @@ The following STRETCH features are implemented:
 
 ## Video Demo
 
-Here's a video / GIF that demos all of the app's implemented features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
-
-GIF created with **your chosen GIF tool**
-
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
+[<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://user-images.githubusercontent.com/94802525/268530187-050ea9bb-0ee5-4487-ad52-e3d6c3724dcf.webm)' title='Video Demo' width='' alt='Video Demo' />
+](https://user-images.githubusercontent.com/94802525/268530187-050ea9bb-0ee5-4487-ad52-e3d6c3724dcf.webm)
 
 ## Notes
 
-I learned that programatic code will overwrite XML. And I learned about FrameLayout.
+I learned that programatic code will overwrite XML hardcoded values. I also learned about FrameLayout.
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2023** **Availe**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
