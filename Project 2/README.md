@@ -20,11 +20,12 @@ The following REQUIRED features are completed:
 
 ## Video Demo
 
-Here's a video / GIF that demos all of the app's implemented features:
+https://user-images.githubusercontent.com/94802525/270117768-b376a4d4-0f6c-45cc-9706-1b18c92acc0f.mp4
 
 ## Notes
 
 - Learned how to use Logcat to debug errors in Android Studio
+- Learned about Context and how improper casting can crash a program.
 
 ## License
 
