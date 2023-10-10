@@ -33,8 +33,13 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun afterTextChanged(p0: Editable?) {
-                billAmount = p0.toString().toDouble()
-                calculate()
+                if (p0?.length == 0) {
+                    binding.displayTip.text = ""
+                    binding.displayTotal.text = ""
+                } else {
+                    billAmount = p0.toString().toDouble()
+                    calculate()
+                }
             }
 
         })
