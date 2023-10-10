@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Here's a tip"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/header_title"
+        app:layout_constraintEnd_toStartOf="@id/header_title"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/billAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:textColor="@android:color/white"
+        android:ems="10"
+        android:text=""
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@id/base"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/base"
+        app:layout_constraintBottom_toBottomOf="@id/base"
+        />
+
+    <TextView
+        android:id="@+id/tipPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15%"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/base"
+        app:layout_constraintEnd_toStartOf="@id/header_title"
+        android:layout_marginTop="150dp"/>
+
+    <SeekBar
+        android:id="@+id/numberSlider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="100"
+        app:layout_constraintStart_toStartOf="@id/billAmount"
+        app:layout_constraintEnd_toEndOf="@id/billAmount"
+        app:layout_constraintTop_toTopOf="@id/tipPercent"
+        app:layout_constraintBottom_toBottomOf="@id/tipPercent"/>
+
+    <TextView
+        android:id="@+id/outputTip"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="Tip"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tipPercent"
+        app:layout_constraintEnd_toStartOf="@id/header_title"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/displayTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:text="Tip"
+        app:layout_constraintStart_toStartOf="@id/billAmount"
+        app:layout_constraintEnd_toStartOf="@id/billAmount"
+        app:layout_constraintTop_toTopOf="@id/outputTip"
+        app:layout_constraintBottom_toBottomOf="@id/outputTip"
+        android:layout_marginLeft="20dp"
+/>
+
+
+    <TextView
+        android:id="@+id/outputTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Total"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/outputTip"
+        app:layout_constraintEnd_toStartOf="@id/header_title"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/displayTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:text="Total"
+        app:layout_constraintStart_toStartOf="@id/displayTip"
+        app:layout_constraintEnd_toEndOf="@id/displayTip"
+        app:layout_constraintTop_toTopOf="@id/outputTotal"
+        app:layout_constraintBottom_toBottomOf="@id/outputTotal"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
