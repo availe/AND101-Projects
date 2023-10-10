@@ -23,19 +23,11 @@ The following STRETCH features are implemented:
 
 ## Video Demo
 
-Here's a video / GIF that demos all of the app's implemented features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
-
-GIF created with **your chosen GIF tool**
-
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
+https://user-images.githubusercontent.com/94802525/273778519-a9281401-9303-4af4-b370-234faf206005.webm
 
 ## Notes
 - Learned about listeners, String.format("%.2f", string), and viewBinding.
+- Stumbled into an issue where after deleting billAmount, it would try to convert non-existant string to double, causing app to crash. Fixed it by checking if p0? had a length of 0, and if so not converting its value to double. I originally thought that it was a null value and tried a null check, but p0 is a char (or similar?) and not an int.
 
 ## License
 
