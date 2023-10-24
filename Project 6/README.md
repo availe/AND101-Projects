@@ -2,7 +2,7 @@
 
 Submitted by: **Availe**
 
-Time spent: **6** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Application Features
 
@@ -19,6 +19,8 @@ The following STRETCH features are implemented:
 - [ ] Add item dividers with `DividerItemDecoration`
 
 ## Video Demo
+
+https://user-images.githubusercontent.com/94802525/277551410-e892284b-2ca0-4409-9e71-04201ad5d2af.mp4
 
 ## License
 
