@@ -25,6 +25,8 @@ The following EXTRA features are implemented:
 
 ## Video Demo
 
+https://user-images.githubusercontent.com/94802525/279281615-fb4ac700-752b-4b82-bb01-ea6b401623d1.webm
+
 ## License
 
 Copyright **2023** **Availe**
