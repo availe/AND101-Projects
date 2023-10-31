@@ -1,30 +1,33 @@
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# AND101 Project 7 - CYOAPI Part 3: Beautified
 
 Submitted by: **Availe**
 
-Time spent: **5** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Application Features
 
 The following REQUIRED features are completed:
 
-- [X] Make an API call to an API of your choice using AsyncHTTPClient
-- [X] Implement a RecyclerView to display a list of entries from the API
-- [X] Display at least three (3) pieces of data for each RecyclerView item
+- [X] App contains a RecyclerView that displays a list of scrollable data
+- [X] App displays at least two (2) pieces of data for each RecyclerView item
+- [X] Use a downloadable font with custom color and size
+- [ ] Modify the theme of the app in `themes.xml`
+- [ ] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
 
 The following STRETCH features are implemented:
 
-- [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
-- [ ] Add item dividers with `DividerItemDecoration`
+- [ ] Update the night theme to use different versions of styles when in dark mode
+- [ ] Use different drawables when in dark mode
+
+The following EXTRA features are implemented:
+
+- [ ] List anything else that you added to improve the app!
 
 ## Video Demo
 
-https://user-images.githubusercontent.com/94802525/277551410-e892284b-2ca0-4409-9e71-04201ad5d2af.mp4
-
 ## License
 
-Copyright **Availe - 2023**
+Copyright **2023** **Availe**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
